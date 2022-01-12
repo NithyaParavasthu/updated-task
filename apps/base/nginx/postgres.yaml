@@ -6,12 +6,12 @@ metadata:
 spec:
   chart:
     spec:
-      chart: postgres
+      chart: postgresql
       sourceRef:
         kind: HelmRepository
         name: bitnami
   interval: 1m0s
-  releaseName: postgres
+  releaseName: postgresql
   values:
     extraEnvVars:
       - name: FOO
